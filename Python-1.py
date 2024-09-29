@@ -54,4 +54,156 @@ print(a_3)
 
 
 
-# Operators
+# Operators and Operator Precedence
+
+# Arimetic Operators: + - * / ........
+# Increment Operators: += -= *= /= ........
+# Comparision Operators: <= >= == != ........
+# Logical Operators: and or not ........
+
+# Operator Precedence:-
+
+# Parentheses	
+# **	Exponentiation	
+# +x  -x  ~x	Unary plus, unary minus, and bitwise NOT	
+# *  /  //  %	Multiplication, division, floor division, and modulus	
+# +  -	Addition and subtraction	
+# <<  >>	Bitwise left and right shifts	
+# &	Bitwise AND	
+# ^	Bitwise XOR	
+# |	Bitwise OR	
+# ==  !=  >  >=  <  <=  is  is not  in  not in 	Comparisons, identity, and membership operators	
+# not	Logical NOT	
+# and	AND	
+# or	OR
+
+# Associativity 
+# Default of assciativity of a single operator is left to right, it varies for multiple operators
+
+# 1
+
+# ()	
+# Parentheses
+
+# Left to right
+
+# 2
+
+# x[index], x[index:index]	
+# Subscription, slicing
+
+# Left to right
+
+# 3
+
+# await x	
+# Await expression
+
+# N/A
+
+# 4
+
+# **	
+# Exponentiation
+
+# Right to left
+
+# 5
+
+# +x, -x, ~x	
+# Positive, negative, bitwise NOT
+
+# Right to left
+
+# 6
+
+# *, @, /, //, %	
+# Multiplication, matrix, division, floor division, remainder
+
+# Left to right
+
+# 7
+
+# +, –	
+# Addition and subtraction
+
+# Left to right
+
+# 8
+
+# <<, >>	
+# Shifts
+
+# Left to right
+
+# 9
+
+# &	
+# Bitwise AND
+
+# Left to right
+
+# 10
+
+# ^	
+# Bitwise XOR
+
+# Left to right
+
+# 11
+
+# |	
+# Bitwise OR
+
+# Left to right
+
+# 12
+
+# in, not in, is, is not, <, <=, >, >=, !=, ==	
+# Comparisons, membership tests, identity tests
+
+# Left to Right
+
+# 13
+
+# not x	
+# Boolean NOT
+
+# Right to left
+
+# 14
+
+# and	
+# Boolean AND
+
+# Left to right
+
+# 15
+
+# or	
+# Boolean OR
+
+# Left to right
+
+# 16
+
+# if-else	
+# Conditional expression
+
+# Right to left
+
+# 17
+
+# lambda	
+# Lambda expression
+
+# N/A
+
+# 18
+
+# :=	
+# Assignment expression (walrus operator)
+
+# Right to left
+
+# Rest is learnt as we work
